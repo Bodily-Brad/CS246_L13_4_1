@@ -103,7 +103,7 @@ public class Experimenter {
      * @param testSet
      * @return A mapping of true or false to each entry in the test set.
      */
-    private Map<SocialMediaEntry, Boolean> classifyEntries(Set<SocialMediaEntry> trainingSet,
+    protected Map<SocialMediaEntry, Boolean> classifyEntries(Set<SocialMediaEntry> trainingSet,
             Set<SocialMediaEntry> testSet) {
         
         System.out.println("Running classifier...");
